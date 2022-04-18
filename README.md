@@ -5,9 +5,17 @@ Pricing of Airbnb in Paris
 As one of the most visited cities in the world, Paris is with no doubts a top destination of Airbnb. In this project we would like to explore the various relations among listing locations, visitor reviews, accomodation types and their potential implications on the overall pricing. 
 
 ## Workflow
+- Data collection:
+- Data preparation:
+- EDA:
+- Data Modeling:
+- Conclusions:
 
 ## Key Findings
 
 ## Future Opportunities
 
 ## Extra information
+- Trello link:
+- Presentation slides:
+
