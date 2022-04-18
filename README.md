@@ -7,9 +7,11 @@ As one of the most visited cities in the world, Paris is with no doubts a top de
 ## Workflow
 
 - Data collection: 
+
 acquiring STR market overview report in Paris and used Airbnb API to scrape information of 10,000 listings in Paris
 
 - Data preparation: 
+
 deleting irrelevant information for the project adn creare new columns for further analysis with the help of encoding methods
 
 - EDA: 
