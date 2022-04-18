@@ -22,6 +22,6 @@ Delete irrelevant information for the project and create new columns for further
 ## Future Opportunities
 
 ## Extra information
-- Trello link:
-- Presentation slides:
+- Trello link: https://trello.com/b/EMd3rnKW/final-project
+- Presentation slides: https://docs.google.com/presentation/d/10WPmQiWsZiQyVnyJX3tzoE7p7ieWUKsDF27AI_u8dsM/edit?usp=sharing
 
