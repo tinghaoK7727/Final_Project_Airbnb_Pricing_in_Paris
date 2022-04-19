@@ -20,6 +20,7 @@ Delete irrelevant information for the project and create new columns for further
 ## Approach
 
 - Tested the models by originally having 11 price bins with each having a difference of 50 euros; Later reduced to 5 bins by having a difference of 100 euros in terms of price per night
+- Price taken on the 18/04
 
 ## Key Findings
 
