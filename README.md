@@ -1,19 +1,24 @@
 # Final-Project: Pricing of Airbnb in Paris
 
 ## Project Goal
-As one of the most visited cities in the world, Paris is with no doubts a top destination of Airbnb. In this project we would like to explore the various relations among listing locations, visitor reviews, accomodation types and their potential implications on the overall pricing. 
+As one of the most visited cities in the world, Paris is with no doubts a top destination of Airbnb. In this project we would like to explore the various relations among listing locations, visitor reviews, accomodation types and their potential implications on the overall pricing per night. 
 
 ## Workflow
 
 - Data collection: 
 
-Acquire STR market overview report in Paris and use Airbnb API to scrape information of 10,000 listings in Paris
+Acquire listing information of Airbnb in Paris via Airbnb API.
 
 - Data preparation: 
 
-Delete irrelevant information for the project and create new columns for further analysis with the help of encoding methods
+Delete irrelevant information for the project and create new columns for further analysis with the help of get dummies encoding method. Pricing outliers were also dropped by executing a boxplot.
 
 - EDA: 
+
+Clusters were spooted by running a KMeans clustering. (Best K found with elbow method at K = 8), 8 listing clusters plotted.
+Listing prices were centralised at 0-200 EUR / night
+Some NaN values found and dropped
+
 - Data Modeling: 
 - Conclusions: 
 
