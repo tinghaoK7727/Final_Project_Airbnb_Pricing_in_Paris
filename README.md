@@ -24,7 +24,10 @@ Listing prices were centralised at 0-200 EUR / night
 Some NaN values found and dropped
 
 - Data Modeling: 
-- Conclusions: 
+
+When cleaned data, severl machine learning models were tested in the hope of building a model that can accurately predict the price range of an Airbnb lisitng given its location (latitude and longitude), listing size, and the type of dwelling (hotel rooms, entire place, priate rooms and shared rooms).
+
+
 
 ## Approach
 
