@@ -5,17 +5,17 @@ As one of the most visited cities in the world, Paris is with no doubts a top de
 
 ## Workflow
 
-- Data collection: 
+**- Data collection:** 
 
 Acquire listing information of Airbnb in Paris via Airbnb API.
 
-- Data preparation: 
+**- Data preparation: **
 
 Delete irrelevant information for the project and create new columns for further analysis with the help of get dummies encoding method. 
 
 Pricing outliers were also dropped by executing a boxplot.
 
-- EDA: 
+**- EDA: **
 
 Clusters were spooted by running a KMeans clustering. (Best K found with elbow method at K = 8), 8 listing clusters plotted.
 
@@ -23,7 +23,7 @@ Listing prices were centralised at 0-200 EUR / night
 
 Some NaN values found and dropped
 
-- Data Modeling: 
+**- Data Modeling:** 
 
 When cleaned data, severl machine learning models were tested in the hope of building a model that can accurately predict the price range of an Airbnb lisitng given its location (latitude and longitude), listing size, and the type of dwelling (hotel rooms, entire place, priate rooms and shared rooms).
 
