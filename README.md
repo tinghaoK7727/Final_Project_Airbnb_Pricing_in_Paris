@@ -31,6 +31,18 @@ When cleaned data, severl machine learning models were tested in the hope of bui
 
 ## Modeling Approach
 
+**Random Forest Classifier**
+
+**Model ComplementNB**
+
+**SGD Classifier**
+
+**Passive Aggressive Classifier**
+
+**Gradient Boosting Classifier**
+
+**Bagging Classifier**
+
 - Tested the models by originally having 11 price bins with each having a difference of 50 euros; Later reduced to 5 bins by having a difference of 100 euros in terms of price per night
 - Price taken on the 18/04
 - Feature selection: trial and test ('Star' removed)
