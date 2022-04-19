@@ -15,6 +15,8 @@ Delete irrelevant information for the project and create new columns for further
 
 Pricing outliers were also dropped by executing a boxplot.
 
+Getting actual addresses from Google Map based on latitude and longitude informaiton.
+
 **EDA:**
 
 Clusters were spooted by running a KMeans clustering. (Best K found with elbow method at K = 8), 8 listing clusters plotted.
