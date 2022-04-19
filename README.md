@@ -17,6 +17,8 @@ Delete irrelevant information for the project and create new columns for further
 - Data Modeling: 
 - Conclusions: 
 
+## Approach
+
 ## Key Findings
 
 ## Future Opportunities
