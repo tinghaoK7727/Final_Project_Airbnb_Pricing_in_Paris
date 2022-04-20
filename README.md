@@ -9,8 +9,6 @@ As one of the most visited cities in the world, Paris is with no doubts a top de
 
 Acquire listing information of Airbnb in Paris via Airbnb API and extracted data including prices listed on the 18th of April 2022. 
 
-(to include link?)
-
 **Data preparation:**
 
 As the original data taken from Airbnb API included a few columns with information not necessarily related to the result of this project, we first deleted some irrelevant or duplicated columns and then created new columns for further analysis with the help of get dummies encoding method. 
@@ -32,8 +30,8 @@ For EDA, we have discovered some patterns in our dataset (figures are described 
 
 **Data Modeling:** 
 
-When cleaned data, severl machine learning models were tested in the hope of building a model that can accurately predict the price range of an Airbnb lisitng given its location (latitude and longitude), listing size, and the type of dwelling (hotel rooms, entire place, priate rooms and shared rooms).
-
+Wtih the cleaned data, several machine learning models were tested in order to find models that can accurately predict the price range of an Airbnb
+lisitng given its arrondissement, listing size, and the type of dwelling (hotel rooms, entire place, priate rooms and shared rooms).
 
 
 ## Modeling Approach
