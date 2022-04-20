@@ -1,7 +1,8 @@
 # Final-Project: Pricing of Airbnb in Paris
 
 ## Project Goal
-As one of the most visited cities in the world, Paris is with no doubts a top destination of Airbnb. In this project we would like to explore the various relations among listing locations, visitor reviews, accomodation types and their potential implications on the overall pricing per night. 
+As one of the most visited cities in the world, Paris is with no doubts a top destination for Airbnb and its users. In this project we would like to explore the various relations among listing locations, visitor reviews, accomodation types and their potential implications on the overall pricing per night. With this project travellers who are interested in visiting Paris should be able to have a glance at the distribution of different kinds of listings within the city, and be able to predict the price range of the stay per night based on given information such as 'arrondissement' (district), number of guests, and accommodation type.
+\n
 
 ## Workflow
 
