@@ -15,17 +15,20 @@ Acquire listing information of Airbnb in Paris via Airbnb API and extracted data
 
 As the original data taken from Airbnb API included a few columns with information not necessarily related to the result of this project, we first deleted some irrelevant or duplicated columns and then created new columns for further analysis with the help of get dummies encoding method. 
 
-Also, we have spotted and removed outliers by executing a boxplot on pricing. Listings with price per night higher than 5000 euros were dropped from our dataset.
+Also, we have spotted and removed outliers by executing a boxplot on the price per night column. Listings with price per night higher than 5000 euros and rows with NaN values were also dropped from our dataset.
 
-Finally, in order to better categorize listings in Paris by their arrondissements, we used the latitude and longitude data to locate each address on Google Map to extract the post codes and took all that contained '75' at the beginning. ('75' is the code of Paris)
+Finally, in order to better categorize listings in Paris by their arrondissements, we used the latitude and longitude data to locate each address on Google Map to extract their post codes and we took all that contained '75' at the beginning. ('75' is the code of Paris)
 
 **EDA:**
 
-Clusters were spooted by running a KMeans clustering. (Best K found with elbow method at K = 8), 8 listing clusters plotted.
+For EDA, we have discovered some patterns in our dataset (figures are described as in average):
 
-Listing prices were centralised at 0-200 EUR / night
-
-Some NaN values found and dropped
+- The arrondissements with the highest number of listings are: 11th, 18th, 3rd, 10th, 15th each with more than 600 listings per district. The arrondissement with the least listings is the 16th.
+- The 1st and the 8th arrondissement are the most expensive in terms of price per night. Whereas the 19th and the 20th are the areas with the least expensive listings.
+- Most of the listings can host up to 4 people and in the 1rst, 2nd, 3rd and 8th there are quite a few listings that can host up to 5 or more guests.
+- Some correlations discovered: 'price group' vs 'number of guests' are 66% positively correlated and 'price group' vs 'arrondissement' are 36% positively correlated.
+- The pricies accommodatiom type can be found in 'Entire Place' whereas the cheapest ones are 'Shared Rooms'.
+- Listings which cost less than 200 euros per night represent 76% of total listings in Paris.
 
 **Data Modeling:** 
 
