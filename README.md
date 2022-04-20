@@ -2,21 +2,22 @@
 
 ## Project Goal
 As one of the most visited cities in the world, Paris is with no doubts a top destination for Airbnb and its users. In this project we would like to explore the various relations among listing locations, visitor reviews, accomodation types and their potential implications on the overall pricing per night. With this project travellers who are interested in visiting Paris should be able to have a glance at the distribution of different kinds of listings within the city, and be able to predict the price range of the stay per night based on given information such as 'arrondissement' (district), number of guests, and accommodation type.
-\n
 
 ## Workflow
 
 **Data collection:** 
 
-Acquire listing information of Airbnb in Paris via Airbnb API.
+Acquire listing information of Airbnb in Paris via Airbnb API and extracted data including prices listed on the 18th of April 2022. 
+
+(to include link?)
 
 **Data preparation:**
 
-Delete irrelevant information for the project and create new columns for further analysis with the help of get dummies encoding method. 
+As the original data taken from Airbnb API included a few columns with information not necessarily related to the result of this project, we first deleted some irrelevant or duplicated columns and then created new columns for further analysis with the help of get dummies encoding method. 
 
-Pricing outliers were also dropped by executing a boxplot.
+Also, we have spotted and removed outliers by executing a boxplot on pricing. Listings with price per night higher than 5000 euros were dropped from our dataset.
 
-Getting actual addresses from Google Map based on latitude and longitude informaiton.
+Finally, in order to better categorize listings in Paris by their arrondissements, we used the latitude and longitude data to locate each address on Google Map to extract the post codes and took all that contained '75' at the beginning. ('75' is the code of Paris)
 
 **EDA:**
 
