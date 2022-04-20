@@ -22,10 +22,13 @@ Finally, in order to better categorize listings in Paris by their arrondissement
 For EDA, we have discovered some patterns in our dataset (figures are described as in average):
 
 - The arrondissements with the highest number of listings are: 11th, 18th, 3rd, 10th, 15th each with more than 600 listings per district. The arrondissement with the least listings is the 16th.
-- The 1st and the 8th arrondissement are the most expensive in terms of price per night. Whereas the 19th and the 20th are the areas with the least expensive listings.
+- The 1st, 6th, 7th and 8th arrondissements are the most expensive in terms of price per nightn (per person). Whereas the 19th and the 20th are the areas with the least expensive listings.
 - Most of the listings can host up to 4 people and in the 1rst, 2nd, 3rd and 8th there are quite a few listings that can host up to 5 or more guests.
 - Some correlations discovered: 'price group' vs 'number of guests' are 66% positively correlated and 'price group' vs 'arrondissement' are 36% positively correlated.
-- The pricies accommodatiom type can be found in 'Entire Place' whereas the cheapest ones are 'Shared Rooms'.
+- The priciest accommodatiom types can be found in 'Entire Place' with prices as high as 4000 euros per night whereas the cheapest ones are found in 'Shared Rooms'. 
+- In terms of price per person, the most expensive type of accommodation is 'Hotel Rooms' at 99.9 euros per person per night and the cheapest type is 'Shared Rooms' at 38.4 euros per person per night.
+- Based on accommodation types, we have an average number of 3-4 guests for 'Entire Place', 2 guests for both 'Hotel Rooms' and 'Private Rooms' and 1 guest for 'Shared Rooms'.
+- Due to the nature of Airbnb, 'Entire Place' represents 84% of total listings, 'Private Rooms' at 11%, and very little percentage for 'Hotel Rooms' and 'Shared Rooms' each with a representation at less than 1%.
 - Listings which cost less than 200 euros per night represent 76% of total listings in Paris.
 
 **Data Modeling:** 
