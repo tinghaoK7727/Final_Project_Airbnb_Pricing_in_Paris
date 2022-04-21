@@ -84,6 +84,14 @@ To wrap up our model testing session, we opted for the Extra Tree Classifier and
 
 ## Future Opportunities
 
+Due to the absence of abundant features in our raw data, several improvements could be done if more time and data were given. We expect to further increase the accuracy of our models by taking into account the following features:
+
+- **Host information and reviews**: with information on hosts and reviews from guests, we could better picture the traveler experience and link it our price range prediction models. Perhaps certain correlations among these variables could be further explored.
+
+- **Occupancy rate of the listing**: as we did not have the occupancy rate information from Airbnb Scraper, we could not dive into the potential dependencies of occupancy and room rates. According to the law of supply and demand, supposedly a more sought after listing would have more power over its pricing strategy. However, this as well needs to be tested by including occupancy data in our features.
+
+- **Listing facilities**: lastly, we assumed that a listing with jaccuzi and home theater would most likely be pricier than a simple studio. To prove this, we will need to investigate the various facility offerings of the listings too.
+
 ## Extra information
 - Trello link: https://trello.com/b/EMd3rnKW/final-project
 - Presentation slides: https://docs.google.com/presentation/d/10WPmQiWsZiQyVnyJX3tzoE7p7ieWUKsDF27AI_u8dsM/edit?usp=sharing
