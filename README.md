@@ -74,7 +74,7 @@ Furthermore, we tested the Bagging Classifier and had an average accuracy rate a
 
 **Extra Tree Classifier:**
 
-To wrap up our model testing session, we opted for the Extra Tree Classifier and had very good results with an average accuracy rate at **99%** for all 4 Bins. This is obviously the best model we had so far.
+To wrap up our model testing session, we opted for the Extra Tree Classifier and the results showed an average accuracy rate at **62%**. The performance was slightly better for predicting Bin 3 prices with a pecision rate at 65%.
 
 ## Key Findings
 
