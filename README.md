@@ -34,7 +34,7 @@ For EDA, some patterns were discovered in our dataset (figures described as in a
 - Due to the nature of Airbnb, 'Entire Place' represents 84% of total listings, 'Private Rooms' at 11%, and very little percentage for 'Hotel Rooms' and 'Shared Rooms' each with a representation of less than 1%.
 - Listings which cost less than 200 euros per night represent 76% of total listings in Paris.
 
-**Data Modeling:** 
+**Model testing preparation:** 
 
 Wtih the cleaned data, several machine learning models were tested in order to find models that can more accurately predict the price range of an Airbnb
 lisitng given its arrondissement, listing size, and the type of dwelling (hotel rooms, entire place, priate rooms and shared rooms).
