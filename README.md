@@ -37,7 +37,7 @@ For EDA, some patterns were discovered in our dataset (figures described as in a
 **Model testing preparation:** 
 
 With the cleaned data, several machine learning models were tested in order to find models that can more accurately predict the price range of an Airbnb
-lisitng given its arrondissement, listing size, and the type of dwelling (hotel rooms, entire place, priate rooms and shared rooms).
+listing given its arrondissement, listing size, and the type of dwelling (hotel rooms, entire place, priate rooms and shared rooms).
 
 In order to predict the price range of Airbnb listings, we first created **4 bins** with the following price ranges: **Bin 1** for **0-50 euros/night**, **Bin 2** for **50-100 euros/night**, **Bin 3** for **100-300 euros/night**, and **Bin 4** for **over 300 euros/night**. Then we created the target set including only the price group values, and the rest of the variables went to the features set.
 
