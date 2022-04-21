@@ -27,7 +27,7 @@ For EDA, some patterns were discovered in our dataset (figures described as in a
 - The arrondissements with the highest number of listings are: 11th, 18th, 3rd, 10th and 15th, each with more than 600 listings per district. The arrondissement with the least listings is the 16th.
 - The 1st, 6th, 7th and 8th arrondissements are the most expensive in terms of price per night (per person). Whereas the 19th and the 20th are the areas with the least expensive listings.
 - Most of the listings in Paris can host up to 4 people and in the 1rst, 2nd, 3rd and 8th there are quite a few listings that can host up to 5 or more guests.
-- Some correlations have been discovered: 'price group' vs 'number of guests' are 66% positively correlated and 'price group' vs 'arrondissement' are 36% positively correlated.
+- Column 'price group' and column 'number of guests' are 66% positively correlated.
 - The priciest accommodatiom types can be found in 'Entire Place' with prices as high as 4000 euros per night whereas the cheapest ones are found in 'Shared Rooms'. 
 - In terms of price per person, the most expensive type of accommodation is 'Hotel Rooms' at 99.9 euros per person per night and the cheapest type is 'Shared Rooms' at 38.4 euros per person per night.
 - Based on accommodation types, we have an average number of 3-4 guests for 'Entire Place', 2 guests for both 'Hotel Rooms' and 'Private Rooms' and 1 guest for 'Shared Rooms'.
