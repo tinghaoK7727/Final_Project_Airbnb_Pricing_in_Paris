@@ -33,7 +33,7 @@ For EDA, some patterns were discovered in our dataset (figures described as in a
 
 **Data Modeling:** 
 
-Wtih the cleaned data, several machine learning models were tested in order to find models that can accurately predict the price range of an Airbnb
+Wtih the cleaned data, several machine learning models were tested in order to find models that can more accurately predict the price range of an Airbnb
 lisitng given its arrondissement, listing size, and the type of dwelling (hotel rooms, entire place, priate rooms and shared rooms).
 
 
