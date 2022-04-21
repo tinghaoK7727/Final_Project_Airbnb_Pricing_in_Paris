@@ -50,19 +50,19 @@ To find the best fitted models, we ran several tests and also did a TPOT test to
 
 **Random Forest Classifier:**
 
-Random Forest Classifier appeared to be one of the best performing models we had. We reached an average prediction accuracy at **67%**. It is especially accurate at predicting the Bin 4 price range (at 75%).
+Random Forest Classifier appeared to be one of the best performing models we had. We reached an average prediction accuracy at **63%**. It is slightly more accurate at predicting the Bin 4 price range (at 65%).
 
 **Model ComplementNB:**
 
-With ComplementNB we had an average prediction accuracy rate at **50%**. Though it was not as performing as the previous one, this model somehow showed a higher accuracy rate while predicitng Bin 3 price range with 65% of precision.
+With ComplementNB we had an average prediction accuracy rate at **56%**. Though it was not as performing as the previous one, this model somehow showed a higher accuracy rate while predicitng Bin 3 price range with 68% of precision.
 
 **SGD Classifier:**
 
-Next, our test with SGD Classifier gave us an average accuracy rate of **60%**. For predicting Bin 4 price range, this model showed a precision rate as high as 81%.
+Next, our test with SGD Classifier gave us an average accuracy rate of **63%**. For predicting Bin 1 price range, this model showed a precision rate as high as 79%.
 
 **Passive Aggressive Classifier:**
 
-Passive Aggressive Classifier was the least performing model we tested out of the 7. Though it had an accuracy rate of 67% while predicting Bin 3 prices, the average accuracy rate was very low at **22%**.
+Passive Aggressive Classifier was the least performing model we tested out of the 7. Though it had an accuracy rate of 85% while predicting Bin 3 prices, the average accuracy rate was very low at **46%**.
 
 **Gradient Boosting Classifier:**
 
@@ -70,10 +70,11 @@ Following we have the Gradient Boosting Classifier which demonstrated an average
 
 **Bagging Classifier:**
 
-To wrap up our model testing session, we tested the Bagging Classifier and had an average accuracy rate at **66%**. Following the same pattern as its better performing peers, this method was best at predciting Bin 4 prices with a precision rate at 75%.
+Furthermore, we tested the Bagging Classifier and had an average accuracy rate at **64%**. Following the same pattern as its better performing peers, this method was best at predciting Bin 4 prices with a precision rate at 67%.
 
 **Extra Tree Classifier:**
 
+To wrap up our model testing session, we opted for the Extra Tree Classifier and had very good results with an average accuracy rate at **99%** for all 4 Bins. This is obviously the best model we had so far.
 
 ## Key Findings
 
