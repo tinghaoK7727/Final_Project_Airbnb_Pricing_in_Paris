@@ -63,11 +63,11 @@ Passive Aggressive Classifier was the least performing model we tested out of th
 
 **Gradient Boosting Classifier:**
 
-
+Following we have the Gradient Boosting Classifier which demonstrated an average accuracy rate of **67%** which was on par with Random Forest Classifier. Similarly to Random Forest Classifier, this model also had the highest precision rate at predicitng Bin 4 prices at 74% of precision expected.
 
 **Bagging Classifier:**
 
-
+To wrap up our model testing session, we tested the Bagging Classifier and had an average accuracy rate at **66%**. Following the same pattern as its better performing peers, this method was best at predciting Bin 4 prices with a precision rate at 75%.
 
 
 ## Key Findings
