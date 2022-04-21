@@ -15,7 +15,10 @@ As the original data taken from Airbnb Scraper included a few columns with infor
 
 Also, we have spotted and removed outliers by executing a boxplot on the price per night column. Listings with price per night higher than 5000 euros and rows with NaN values were also dropped from our dataset.
 
-Finally, in order to better categorize listings in Paris by their arrondissements, with the help of **geopy** and **geocode** libraries, we used the latitude and longitude data to locate each address on Google Map to extract their post codes and we took all that contained '75' at the beginning. (*'75' is the code of Paris) And as we have 11000 rows of data, we divided the task into 2 subsets and each person ran 5500 of rows to get the addresses.
+Furthermore, to add more features to the existing ones and to better correspond to the potential needs of travelers in Paris, we picked 6 hot tourist spots 
+(**Arc of Triumph, Eiffel Tower, Champs Elysées, Montmartre, Louvre, Notre Dame**) in the city and with their coordinates we created extra columns to show the distance bewteen those attractions and each listing.
+
+Finally, in order to better categorize listings in Paris by their **arrondissements**, with the help of **geopy** and **geocode** libraries, we used the latitude and longitude data to locate each address on Google Map to extract their post codes and we took all that contained '75' at the beginning. (*'75' is the code of Paris) And as we have 11000 rows of data, we divided the task into 2 subsets and each person ran 5500 of rows to get the addresses.
 
 **EDA:**
 
