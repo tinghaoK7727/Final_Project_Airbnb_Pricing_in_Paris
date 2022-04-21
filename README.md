@@ -15,7 +15,7 @@ As the original data taken from Airbnb Scraper included a few columns with infor
 
 Also, we have spotted and removed outliers by executing a boxplot on the price per night column. Listings with price per night higher than 5000 euros and rows with NaN values were also dropped from our dataset.
 
-Finally, in order to better categorize listings in Paris by their arrondissements, we used the latitude and longitude data to locate each address on Google Map to extract their post codes and we took all that contained '75' at the beginning. (*'75' is the code of Paris)
+Finally, in order to better categorize listings in Paris by their arrondissements, with the help of **geopy** and **geocode** libraries, we used the latitude and longitude data to locate each address on Google Map to extract their post codes and we took all that contained '75' at the beginning. (*'75' is the code of Paris) And as we have 11000 rows of data, we divided the task into 2 subsets and each person ran 5500 of rows to get the addresses.
 
 **EDA:**
 
@@ -36,7 +36,7 @@ For EDA, some patterns were discovered in our dataset (figures described as in a
 Wtih the cleaned data, several machine learning models were tested in order to find models that can more accurately predict the price range of an Airbnb
 lisitng given its arrondissement, listing size, and the type of dwelling (hotel rooms, entire place, priate rooms and shared rooms).
 
-In order to predict the price range of Airbnb listings, we first created **4 bins** with the following price ranges: Bin 1 for **0-50 euros/night**, Bin 2 for **50-100 euros/night**, Bin 3 for **100-300 euros/night**, and Bin 4 for **over 300 euros/night**. Then we created the target set including only the price group values, and the rest of the variables went to the features set.
+In order to predict the price range of Airbnb listings, we first created **4 bins** with the following price ranges: **Bin 1** for **0-50 euros/night**, **Bin 2** for **50-100 euros/night**, **Bin 3** for **100-300 euros/night**, and **Bin 4** for **over 300 euros/night**. Then we created the target set including only the price group values, and the rest of the variables went to the features set.
 
 Following, we divided the datasets into train and test sets with 80% of train data and 20% of test data for the modeling.
 
