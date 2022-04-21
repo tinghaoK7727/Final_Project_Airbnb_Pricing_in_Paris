@@ -1,13 +1,13 @@
 # Final-Project: Pricing of Airbnb in Paris
 
 ## Project Goal
-As one of the most visited cities in the world, Paris is with no doubts a top destination for Airbnb and its users. In this project we would like to explore the various relations among listing locations, visitor reviews, accomodation types and their potential implications on the overall pricing per night. With this project travellers who are interested in visiting Paris should be able to have a glance at the distribution of different kinds of listings within the city, and be able to predict the price range of the stay per night based on given information such as 'arrondissement' (district), number of guests, and accommodation type.
+As one of the most visited cities in the world, Paris is with no doubts a top destination for Airbnb and its users. In this project we would like to explore the various relations among listing locations, listing sizes, accomodation types and their potential implications on the overall pricing per night. With this project travellers who are interested in visiting Paris should be able to have a glance at the distribution of different kinds of listings within the city, and be able to predict the price range of the stay per night based on given information such as 'arrondissement' (district), number of guests, and accommodation type.
 
 ## Workflow
 
 **Data collection:** 
 
-We acquired listing information of Airbnb in Paris via Airbnb Scraper and extracted data including prices listed on the 19th of April 2022. 
+We acquired listing information of Airbnb in Paris via **Airbnb Scraper** and extracted data including prices listed on the **19th of April 2022**. 
 
 **Data preparation:**
 
@@ -43,9 +43,15 @@ Following, we divided the datasets into train and test sets with 80% of train da
 
 ## Modeling Approach
 
+To find the best fitted models, we ran several tests and also did a TPOT test to make sure we have included the most suitable models in our test set.
+
 **Random Forest Classifier**
 
+Random Forest Classifier appeared to be one of the best performing models we have. We reached an average prediction accuracy at 67%. It is especially accurate at predicting the Bin 4 price range (at 75%).
+
 **Model ComplementNB**
+
+
 
 **SGD Classifier**
 
@@ -55,9 +61,6 @@ Following, we divided the datasets into train and test sets with 80% of train da
 
 **Bagging Classifier**
 
-- Tested the models by originally having 11 price bins with each having a difference of 50 euros; Later reduced to 5 bins by having a difference of 100 euros in terms of price per night
-- Price taken on the 18/04
-- Feature selection: trial and test ('Star' removed)
 
 ## Key Findings
 
