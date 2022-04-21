@@ -86,11 +86,17 @@ To wrap up our model testing session, we opted for the Extra Tree Classifier and
 
 Due to the absence of abundant features in our raw data, several improvements could be done if more time and data were given. We expect to further increase the accuracy of our models by taking into account the following features:
 
-- **Host information and reviews**: with information on hosts and reviews from guests, we could better picture the traveler experience and link it to our price range prediction models. Perhaps certain correlations among these variables could be further explored.
+**Host information and reviews**: 
 
-- **Occupancy rate of the listing**: as we did not have occupancy rate information from Airbnb Scraper, we could not dive into the potential dependencies of room rate on occupancy. According to the law of supply and demand, supposedly a more sought after listing would have more power over its pricing strategy. However, this needs to be tested by including occupancy data in our features.
+With information on hosts and reviews from guests, we could better picture the traveler experience and link it to our price range prediction models. Perhaps certain correlations among these variables could be further explored.
 
-- **Listing facilities**: lastly, we assumed that a listing with jaccuzi and home theater would most likely be pricier than a simple studio. To prove this, we will need to investigate the various facility offerings of the listings as well.
+**Occupancy rate of the listing**: 
+
+As we did not have occupancy rate information from Airbnb Scraper, we could not dive into the potential dependencies of room rate on occupancy. According to the law of supply and demand, supposedly a more sought after listing would have more power over its pricing strategy. However, this needs to be tested by including occupancy data in our features.
+
+**Listing facilities**: 
+
+Lastly, we assumed that a listing with jaccuzi and home theater would most likely be pricier than a simple studio. To prove this, we will need to investigate the various facility offerings of the listings as well.
 
 ## Extra information
 - Trello link: https://trello.com/b/EMd3rnKW/final-project
