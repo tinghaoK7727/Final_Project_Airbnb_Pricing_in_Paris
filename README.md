@@ -78,8 +78,9 @@ To wrap up our model testing session, we opted for the Extra Tree Classifier and
 
 ## Key Findings
 
-- Pricing distribution of listings: as expected, from our results we can see that the least pricy listings are centered at the outskirts of the city whereas the priciest ones are more centrally located. This is quite the same with the distance to the 6 landmarks we picked. The closer to the sites, the more expensive the listing would be, and vice versa.
-- Prediction outcomes: we used the 7 models to check the precision of our predictions on 3 listings. One from our data set and two (cosy/jaccuzi) randomly selected from airbnb website. It turned out that all 7 models employed had the correct result for the listing from our dataset. And for the two listings randomly picked from airbnb website, 2 out of 7 models had the correct prediction for the cosy listing whereas 4 out of 7 models had the correct prediciton for the jaccuzi listing. Also, it is worth mentioning that Gradient Boosting Classifier got all 3 prediction tests right.
+- Pricing distribution of listings: as expected, from our results we can see that the least pricy listings are mostly located at the outskirts of the city whereas the priciest ones are more centrally located. Similarly, for the 6 landmarks we picked, the closer the listing is to the sites, the more expensive the it would be, and vice versa.
+
+- Prediction outcomes: we used the 7 models to check the precision of our predictions on 3 listings. One selected from our dataset and two (cosy/jaccuzi) randomly picked from airbnb website. It turned out that all 7 models employed had the correct prediction result for the listing from our dataset. And for the two listings randomly picked from airbnb website, 2 out of 7 models had the correct prediction for the cosy listing whereas 4 out of 7 models had the correct prediciton for the jaccuzi listing. Also, it is worth mentioning that **Gradient Boosting Classifier got all 3 prediction tests right**.
 
 ## Future Opportunities
 
