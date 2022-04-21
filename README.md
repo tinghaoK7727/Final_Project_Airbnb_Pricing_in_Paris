@@ -41,25 +41,33 @@ In order to predict the price range of Airbnb listings, we first created **4 bin
 Following, we divided the datasets into train and test sets with 80% of train data and 20% of test data for the modeling.
 
 
-## Modeling Approach
+## Model Testing
 
 To find the best fitted models, we ran several tests and also did a TPOT test to make sure we have included the most suitable models in our test set.
 
-**Random Forest Classifier**
+**Random Forest Classifier:**
 
-Random Forest Classifier appeared to be one of the best performing models we have. We reached an average prediction accuracy at 67%. It is especially accurate at predicting the Bin 4 price range (at 75%).
+Random Forest Classifier appeared to be one of the best performing models we had. We reached an average prediction accuracy at **67%**. It is especially accurate at predicting the Bin 4 price range (at 75%).
 
-**Model ComplementNB**
+**Model ComplementNB:**
+
+With ComplementNB we had an average prediction accuracy rate at **50%**. Though it was not as performing as the previous one, this model somehow showed a higher accuracy rate while predicitng Bin 3 price range with 65% of precision.
+
+**SGD Classifier:**
+
+Next, our test with SGD Classifier gave us an average accuracy rate of **60%**. For predicting Bin 4 price range, this model showed a precision rate as high as 81%.
+
+**Passive Aggressive Classifier:**
+
+Passive Aggressive Classifier was the least performing model we tested out of the 6. Though it had an accuracy rate of 67% while predicting Bin 3 prices, the average accuracy rate was very low at **22%**.
+
+**Gradient Boosting Classifier:**
 
 
 
-**SGD Classifier**
+**Bagging Classifier:**
 
-**Passive Aggressive Classifier**
 
-**Gradient Boosting Classifier**
-
-**Bagging Classifier**
 
 
 ## Key Findings
