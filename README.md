@@ -59,7 +59,7 @@ Next, our test with SGD Classifier gave us an average accuracy rate of **60%**. 
 
 **Passive Aggressive Classifier:**
 
-Passive Aggressive Classifier was the least performing model we tested out of the 6. Though it had an accuracy rate of 67% while predicting Bin 3 prices, the average accuracy rate was very low at **22%**.
+Passive Aggressive Classifier was the least performing model we tested out of the 7. Though it had an accuracy rate of 67% while predicting Bin 3 prices, the average accuracy rate was very low at **22%**.
 
 **Gradient Boosting Classifier:**
 
@@ -68,6 +68,8 @@ Following we have the Gradient Boosting Classifier which demonstrated an average
 **Bagging Classifier:**
 
 To wrap up our model testing session, we tested the Bagging Classifier and had an average accuracy rate at **66%**. Following the same pattern as its better performing peers, this method was best at predciting Bin 4 prices with a precision rate at 75%.
+
+**Extra Tree Classifier:**
 
 
 ## Key Findings
